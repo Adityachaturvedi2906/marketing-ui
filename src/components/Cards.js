@@ -7,19 +7,19 @@ const Cards = () => {
 		color: '#E25753',
 	}
 	return (
-		<div className='ms-36 me-24 flex flex-wrap justify-around'>
-			<div className='rounded-lg block min-w-72 mx-3 mb-5'>
+		<div className='ms-32 me-24 flex flex-wrap md:flex-nowrap justify-around'>
+			<div className='rounded-lg block md:min-w-72 min-w-72 md:w-60 mx-3 mb-5'>
 				<div className='flex justify-between mx-4 absolute'>
 					<div>
 						<h2 className='bg-white text-[#2430A0] -ms-2 my-4 px-3 rounded-sm text-sm py-1 font-bold'>60% OFF</h2>
 					</div>
 					<div>
-						<button className='bg-white ms-[118px] my-4 text-black px-1 rounded-sm py-1'>
+						<button className='bg-white ms-36 my-4 text-black px-1 rounded-sm py-1'>
 							<BookmarkBorderIcon />
 						</button>
 					</div>
 				</div>
-				<img src={cardImg} alt='cardimage' className='min-w-72' />
+				<img src={cardImg} alt='cardimage' className='min-w-72 md:w-60' />
 				<div className='bg-[#E9EFFF]'>
 					<h2 className='text-[#2430A0] font-semibold uppercase mx-3 py-3'>Language</h2>
 					<h4 className='text-black font-semibold mx-3 py-1'>Class name - Lorem ipsum sit elit varsit lectusi sit amet</h4>
@@ -32,18 +32,18 @@ const Cards = () => {
 				</div>
 			</div>
 
-			<div className='rounded-lg block min-w-72 mx-3 mb-5'>
+			<div className='rounded-lg block md:min-w-72 min-w-72 md:w-60  mx-3 mb-5'>
 				<div className='flex justify-between mx-4 absolute'>
 					<div>
 						<h2 className='bg-white text-[#2430A0] -ms-2 my-4 px-3 rounded-sm text-sm py-1 font-bold'>60% OFF</h2>
 					</div>
 					<div>
-						<button className='bg-white ms-[118px] my-4 text-black px-1 rounded-sm py-1'>
+						<button className='bg-white ms-36 my-4 text-black px-1 rounded-sm py-1'>
 							<BookmarkIcon style={button2Color} />
 						</button>
 					</div>
 				</div>
-				<img src={cardImg} alt='cardimage' className='min-w-72' />
+				<img src={cardImg} alt='cardimage' className='min-w-72 md:w-60' />
 				<div className='bg-[#E9EFFF]'>
 					<h2 className='text-[#2430A0] font-semibold uppercase mx-3 py-3'>Language</h2>
 					<h4 className='text-black font-semibold mx-3 py-1'>Class name - Lorem ipsum sit elit varsit lectusi sit amet</h4>
@@ -55,18 +55,18 @@ const Cards = () => {
 					<div><button>Enroll now</button></div>
 				</div>
 			</div>
-			<div className='rounded-lg block min-w-72 mx-3 mb-5'>
+			<div className='rounded-lg block md:min-w-72 min-w-72 md:w-60  mx-3 mb-5'>
 				<div className='flex justify-between mx-4 absolute'>
 					<div>
 						<h2 className='bg-white text-[#2430A0] -ms-2 my-4 px-3 rounded-sm text-sm py-1 font-bold'>60% OFF</h2>
 					</div>
 					<div>
-						<button className='bg-white ms-[118px] my-4 text-black px-1 rounded-sm py-1'>
+						<button className='bg-white ms-36 my-4 text-black px-1 rounded-sm py-1'>
 							<BookmarkBorderIcon />
 						</button>
 					</div>
 				</div>
-				<img src={cardImg} alt='cardimage' className='min-w-72' />
+				<img src={cardImg} alt='cardimage' className='min-w-72 md:w-60' />
 				<div className='bg-[#E9EFFF]'>
 					<h2 className='text-[#2430A0] font-semibold uppercase mx-3 py-3'>Language</h2>
 					<h4 className='text-black font-semibold mx-3 py-1'>Class name - Lorem ipsum sit elit varsit lectusi sit amet</h4>
@@ -78,18 +78,18 @@ const Cards = () => {
 					<div><button>Enroll now</button></div>
 				</div>
 			</div>
-			<div className='rounded-lg block min-w-72 mx-3 mb-5'>
+			<div className='rounded-lg block md:min-w-72 min-w-72 md:w-60  mx-3 mb-5'>
 				<div className='flex justify-between mx-4 absolute'>
 					<div>
 						<h2 className='bg-white text-[#2430A0] -ms-2 my-4 px-3 rounded-sm text-sm py-1 font-bold'>60% OFF</h2>
 					</div>
 					<div>
-						<button className='bg-white ms-[118px] my-4 text-black px-1 rounded-sm py-1'>
+						<button className='bg-white ms-36 my-4 text-black px-1 rounded-sm py-1'>
 							<BookmarkBorderIcon />
 						</button>
 					</div>
 				</div>
-				<img src={cardImg} alt='cardimage' className='min-w-72' />
+				<img src={cardImg} alt='cardimage' className='min-w-72 md:w-60' />
 				<div className='bg-[#E9EFFF]'>
 					<h2 className='text-[#2430A0] font-semibold uppercase mx-3 py-3'>Language</h2>
 					<h4 className='text-black font-semibold mx-3 py-1'>Class name - Lorem ipsum sit elit varsit lectusi sit amet</h4>
