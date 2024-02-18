@@ -22,41 +22,41 @@ const Explore = () => {
 				</h2>
 			</div>
 
-			<div className='flex flex-wrap justify-around mx-3 my-5 items-center'>
-				<div className='w-full md:w-48 items-center text-center mb-5 md:mb-0'>
+			<div className='flex flex-wrap md:flex-nowrap justify-around mx-3 my-5 items-center'>
+				<div className='w-full md:w-70 items-center text-center mb-5 md:mb-0'>
 					<span className='py-4 flex justify-center'>
 						<img src={crad1img} alt="card1" className='w-20 h-24 py-3' />
 					</span>
 					<div className="text-center">
 						<h2 className="mb-3 font-semibold text-[#2430A0] text-xl">Learn something new</h2>
-						<p className='text-[#51557D] text-sm mx-auto'>Explore your passion and go beyond the physical and mental boundaries of time, age, gender, or geography.</p>
+						<p className='text-[#51557D] text-sm  md:w-52  mx-auto'>Explore your passion and go beyond the physical and mental boundaries of time, age, gender, or geography.</p>
 					</div>
 				</div>
-				<div className='w-full md:w-48 items-center text-center mb-5 md:mb-0'>
+				<div className='w-full md:w-70 items-center text-center mb-5 md:mb-0'>
 					<span className='py-4 flex justify-center'>
 						<img src={crad2img} alt="card2" className='w-20 h-24 py-3' />
 					</span>
 					<div className="text-center">
 						<h2 className="mb-3 font-semibold text-[#2430A0] text-xl">Skilled & Passionate Teachers</h2>
-						<p className='text-[#51557D] text-sm mx-auto'>We offer interactive classes by experts who are qualified and trusted.</p>
+						<p className='text-[#51557D] text-sm  md:w-52  mx-auto'>We offer interactive classes by experts who are qualified and trusted.</p>
 					</div>
 				</div>
-				<div className='w-full md:w-48 items-center text-center mb-5 md:mb-0'>
+				<div className='w-full md:w-70 items-center text-center mb-5 md:mb-0'>
 					<span className='py-4 flex justify-center'>
 						<img src={crad3img} alt="card3" className='w-20 h-24 py-3' />
 					</span>
 					<div className="text-center">
 						<h2 className="mb-3 font-semibold text-[#2430A0] text-xl">Take classes anytime, anywhere</h2>
-						<p className='text-[#51557D] text-sm mx-auto'>Join sessions at your own convenience and pace, from the comforts of your home.</p>
+						<p className='text-[#51557D] text-sm  md:w-52  mx-auto'>Join sessions at your own convenience and pace, from the comforts of your home.</p>
 					</div>
 				</div>
-				<div className='w-full md:w-48 items-center text-center'>
+				<div className='w-full md:w-70 items-center text-center'>
 					<span className='py-4 flex justify-center'>
 						<img src={crad4img} alt="card4" className='w-20 h-24 py-3' />
 					</span>
 					<div className="text-center">
 						<h2 className="mb-3 font-semibold text-[#2430A0] text-xl">Pay as you go</h2>
-						<p className='text-[#51557D] text-sm mx-auto'>No enrollment fee for our classes. You only pay for the classes that you take. Your payment is safe and secure with us.</p>
+						<p className='text-[#51557D] text-sm  md:w-52  mx-auto'>No enrollment fee for our classes. You only pay for the classes that you take. Your payment is safe and secure with us.</p>
 					</div>
 				</div>
 			</div>
