@@ -7,7 +7,7 @@ const Community = () => {
 	return (
 		<div className='ms-36 me-24 mt-20'>
 			<h2 className='font-bold text-4xl text-[#2430A0]'>Love from community</h2>
-			<div class='flex flex-wrap justify-center md:justify-around mx-3 my-5 items-center'>
+			<div class='flex flex-wrap md:flex-nowrap justify-center md:justify-around my-5 items-center'>
 				<div className='text-center w-96 h-80 px-5 mx-3 rounded-md border-[1px] md:my-0 my-2 border-gray-300'>
 					<div className='flex'>
 						<span className='md:text-7xl text-4xl py-5 font-serif font-extrabold text-[#D3DEEC]'>“</span>

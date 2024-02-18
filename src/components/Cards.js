@@ -7,7 +7,7 @@ const Cards = () => {
 		color: '#E25753',
 	}
 	return (
-		<div className='ms-32 me-24 flex flex-wrap md:flex-nowrap justify-around'>
+		<div className='md:ms-36 md:me-24 flex flex-wrap md:flex-nowrap justify-around'>
 			<div className='rounded-lg block md:min-w-72 min-w-72 md:w-60 mx-3 mb-5'>
 				<div className='flex justify-between mx-4 absolute'>
 					<div>
